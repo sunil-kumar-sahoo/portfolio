@@ -352,6 +352,7 @@ form textarea {
   text-transform: uppercase;
   letter-spacing: 1px;
   margin-left: 35%;
+  box-shadow: 0 2px 7px rgb(14 55 54 / 15%);
 }
 .contact-button:hover {
   background: var(--hover);
@@ -538,15 +539,14 @@ form textarea {
 }
 
 .social{
-  
   -webkit-tap-highlight-color: transparent;
 }
 .footer-social{
   -webkit-tap-highlight-color: transparent;
-  
-
-}
-.social:active{
-  transform: scale(0.9);
 }
 
+
+.bx bxl-twitter:active{
+  transform: scale(1.1) translateY(-5px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
