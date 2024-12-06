@@ -537,3 +537,8 @@ form textarea {
   }
 }
 
+.social{
+  
+  -webkit-tap-highlight-color: transparent;
+}
+
