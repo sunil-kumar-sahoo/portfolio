@@ -541,4 +541,12 @@ form textarea {
   
   -webkit-tap-highlight-color: transparent;
 }
+.footer-social{
+  -webkit-tap-highlight-color: transparent;
+  
+
+}
+.social:active{
+  transform: scale(0.9);
+}
 
